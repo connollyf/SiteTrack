@@ -1,7 +1,6 @@
 "use strict";
 
 function deleteItem(event) {
-  console.log('handler called');
   let listItem = $(event.target).parent();
   let siteName = listItem.html();
   siteName = siteName.substring(0, siteName.length - 36);

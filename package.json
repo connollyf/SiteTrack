@@ -11,7 +11,8 @@
     "node-sass": "^4.11.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "npx eslint .",
+    "build": "node-sass --output-style compressed variables.scss variables.min.css && node-sass --output-style compressed options/options.scss options/options.min.css && node-sass --output-style compressed popup/popup.scss popup/popup.min.css"
   },
   "author": "Fionn Connolly",
   "license": "ISC"
