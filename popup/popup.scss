@@ -1,0 +1,61 @@
+@import '../variables.scss';
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.header {
+  background-color: $color-primary-0;
+  width: 100%;
+  padding: 10px 30px;
+
+  h3 {
+    color: white;
+    text-align: center;
+    margin-bottom: 0;
+  }
+}
+
+.siteList {
+  padding-left: 5px;
+
+  .siteContainer {
+    border-bottom: solid 1px $font-color-light;
+    padding: 5px 30px;
+  }
+
+  .siteName {
+    color: $font-color;
+    font-size: 1.15em;
+    margin-bottom: 5px;
+  }
+  .numVisits {
+    color: $font-color-light;
+    margin-left: 5px;
+    margin-bottom: 5px;
+  }
+  .avgVisits {
+    color: $font-color-light;
+    margin-left: 5px;
+    margin-bottom: 5px;
+  }
+}
+
+.emptyMessageContainer {
+  width: 300px;
+  padding: 20px;
+}
+
+.emptyMessage {
+  color: $font-color-light;
+}
+
+.settingsLink {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: white;
+  &:hover {
+    color: darken(white, 15%);
+  }
+}

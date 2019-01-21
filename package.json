@@ -1,0 +1,18 @@
+{
+  "name": "sitetrack",
+  "version": "1.0.0",
+  "description": "A firefox extensions that lets you track stats about how often you visit specified sites",
+  "main": "stattracker.js",
+  "dependencies": {
+    "eslint": "^5.12.1",
+    "jquery": "^3.3.1"
+  },
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fionn Connolly",
+  "license": "ISC"
+}
