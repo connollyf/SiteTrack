@@ -12,7 +12,7 @@
   },
   "scripts": {
     "lint": "npx eslint .",
-    "build": "node-sass --output-style compressed variables.scss variables.min.css && node-sass --output-style compressed options/options.scss options/options.min.css && node-sass --output-style compressed popup/popup.scss popup/popup.min.css"
+    "build": "node-sass --output-style compressed variables.scss variables.min.css && node-sass --output-style compressed options/options.scss options/options.min.css && node-sass --output-style compressed popup/popup.scss popup/popup.min.css && cp node_modules/jquery/dist/jquery.min.js jquery.min.js"
   },
   "author": "Fionn Connolly",
   "license": "ISC"
